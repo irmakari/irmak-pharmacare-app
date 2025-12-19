@@ -1,0 +1,1 @@
+export {default as ThemedText} from './themedText.jsx'

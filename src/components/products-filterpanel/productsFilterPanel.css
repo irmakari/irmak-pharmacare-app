@@ -1,0 +1,100 @@
+.filters-panel {
+    background: #eef0f3;
+    border-radius: 4px;
+    padding: 16px;
+    border: 1px solid #e5e7eb;
+}
+
+.filters-title {
+    margin: 0 0 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.filter-group + .filter-group {
+    margin-top: 14px;
+}
+
+.filter-heading {
+    margin: 0 0 8px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.filter-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 6px;
+}
+
+.filter-item label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #374151;
+    cursor: pointer;
+}
+
+.filter-item input {
+    accent-color: #2563eb;
+}
+
+.filter-subtitle {
+    display: block;
+    font-size: 12px;
+    color: #6b7280;
+    margin-bottom: 6px;
+}
+
+.filter-select {
+    position: relative;
+}
+
+.filter-select select {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #d1d5db;
+    background: #ffffff;
+    appearance: none;
+    font-size: 13px;
+    color: #374151;
+}
+
+.filter-caret {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: #4b5563;
+    pointer-events: none;
+}
+
+.filter-actions {
+    display: grid;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.filter-btn {
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.filter-btn--apply {
+    background: #16a34a;
+    color: #ffffff;
+}
+
+.filter-btn--reset {
+    background: #ef4444;
+    color: #ffffff;
+}

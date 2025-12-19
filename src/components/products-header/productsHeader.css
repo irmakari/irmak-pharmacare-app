@@ -1,0 +1,10 @@
+.products-header {
+    margin-bottom: 16px;
+}
+.products-title {
+    font-size: 26px;
+    margin: 0;
+    font-weight: 700;
+    color: #111827;
+    font-family: "Poppins", sans-serif;
+}

@@ -1,0 +1,9 @@
+.home-page {
+    background: #f7f9fc;
+    font-family: "Inter", system-ui, sans-serif;
+}
+
+.home-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}

@@ -1,0 +1,23 @@
+.products-toolbar {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 40px;
+}
+
+.toolbar-search input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background: #ffffff;
+    font-size: 14px;
+}
+
+.toolbar-select select {
+    padding: 12px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background: #ffffff;
+    font-size: 14px;
+    min-width: 160px;
+}

@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Production Build
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Mac system metadata
+.DS_Store
+
+# Windows system metadata
+Desktop.ini
+
+# Optional: Lock files (sadece tek package manager kullanıyorsan sakla)
+# package-lock.json
+# yarn.lock
+
+# IntelliJ
+.idea/
+
+# Temp files
+*.swp
+*.swo

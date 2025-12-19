@@ -1,0 +1,478 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "irmak@dou.com",
+      "password": "irmak123"
+    },
+    {
+      "id": 2,
+      "email": "nisa@dou.com",
+      "password": "nisa123"
+    },
+    {
+      "id": 3,
+      "email": "mami@dou.com",
+      "password": "mami123"
+    }
+  ],
+  "nightPharmacies": [
+    {
+      "id": 1,
+      "name": "Green Valley Pharmacy",
+      "distance": "2.5 km away",
+      "status": "Open until 11:00 PM",
+      "phone": "(123) 456-7890"
+    },
+    {
+      "id": 2,
+      "name": "City Central Pharmacy",
+      "distance": "4.1 km away",
+      "status": "Open until 10:00 PM",
+      "phone": "(987) 654-3210"
+    },
+    {
+      "id": 3,
+      "name": "Health Hub Pharmacy",
+      "distance": "1.8 km away",
+      "status": "Open 24 hours",
+      "phone": "(555) 123-4567"
+    }
+  ],
+  "pharmacies": [
+    {
+      "id": 1,
+      "isNightDuty": false,
+      "name": "Arı Pharmacy",
+      "distance": "0.8 km away",
+      "address": "İçerenköy Mahallesi / Ataşehir",
+      "city": "İstanbul",
+      "district": "Ataşehir",
+      "neighborhood": "İçerenköy",
+      "statusText": "Open until 9 PM",
+      "statusType": "open",
+      "phone": "+90 (222) 222-222-2222",
+      "services": ["On-duty service", "Prescription pickup", "OTC products"],
+      "schedule": [
+        { "day": "Monday",    "open": "09:00 AM", "close": "09:00 PM" },
+        { "day": "Tuesday",   "open": "09:00 AM", "close": "09:00 PM" },
+        { "day": "Wednesday", "open": "09:00 AM", "close": "09:00 PM" },
+        { "day": "Thursday",  "open": "09:00 AM", "close": "09:00 PM" },
+        { "day": "Friday",    "open": "09:00 AM", "close": "09:00 PM" },
+        { "day": "Saturday",  "open": "10:00 AM", "close": "06:00 PM" },
+        { "day": "Sunday",    "closed": true }
+      ]
+    },
+    {
+      "id": 2,
+      "isNightDuty": false,
+      "name": "Bal Pharmacy",
+      "distance": "1.2 km away",
+      "address": "Bağdat Caddesi / Kadiköy",
+      "city": "İstanbul",
+      "district": "Kadiköy",
+      "neighborhood": "Bağdat Caddesi",
+      "statusText": "Open until 9 PM",
+      "statusType": "closeSoon",
+      "phone": "+90 (555) 555-555-5555",
+      "services": ["On-duty service", "OTC products"],
+      "schedule": [
+        { "day": "Monday",    "open": "09:00 AM", "close": "09:00 PM" },
+        { "day": "Tuesday",   "open": "09:00 AM", "close": "09:00 PM" },
+        { "day": "Wednesday", "open": "09:00 AM", "close": "09:00 PM" },
+        { "day": "Thursday",  "open": "09:00 AM", "close": "09:00 PM" },
+        { "day": "Friday",    "open": "09:00 AM", "close": "09:00 PM" },
+        { "day": "Saturday",  "open": "10:00 AM", "close": "06:00 PM" },
+        { "day": "Sunday",    "closed": true }
+      ]
+    },
+    {
+      "id": 3,
+      "isNightDuty": false,
+      "name": "Tekin Pharmacy",
+      "distance": "3.4 km away",
+      "address": "Fındıklı / Maltepe",
+      "city": "İstanbul",
+      "district": "Maltepe",
+      "neighborhood": "Fındıklı",
+      "statusText": "Open until 9 PM",
+      "statusType": "closed",
+      "phone": "+90 (777) 777-777-7777",
+      "services": ["On-duty service", "OTC products"],
+      "schedule": [
+        { "day": "Monday",    "open": "09:00 AM", "close": "09:00 PM" },
+        { "day": "Tuesday",   "open": "09:00 AM", "close": "09:00 PM" },
+        { "day": "Wednesday", "open": "09:00 AM", "close": "09:00 PM" },
+        { "day": "Thursday",  "open": "09:00 AM", "close": "09:00 PM" },
+        { "day": "Friday",    "open": "09:00 AM", "close": "09:00 PM" },
+        { "day": "Saturday",  "open": "10:00 AM", "close": "06:00 PM" },
+        { "day": "Sunday",    "closed": true }
+      ]
+    },
+    {
+      "id": 4,
+      "isNightDuty": true,
+      "name": "Aksu Pharmacy",
+      "distance": "1.1 km away",
+      "address": "Aksu Mahallesi / Ümraniye",
+      "city": "İstanbul",
+      "district": "Ümraniye",
+      "neighborhood": "Aksu",
+      "statusText": "On duty tonight (until 8 AM)",
+      "statusType": "open",
+      "phone": "+90 (530) 111 11 11",
+      "services": ["On-duty service", "Prescription pickup", "OTC products"],
+      "schedule": [
+        { "day": "Monday",    "open": "09:00 AM", "close": "08:00 AM" },
+        { "day": "Tuesday",   "open": "09:00 AM", "close": "08:00 AM" },
+        { "day": "Wednesday", "open": "09:00 AM", "close": "08:00 AM" },
+        { "day": "Thursday",  "open": "09:00 AM", "close": "08:00 AM" },
+        { "day": "Friday",    "open": "09:00 AM", "close": "08:00 AM" },
+        { "day": "Saturday",  "open": "09:00 AM", "close": "08:00 AM" },
+        { "day": "Sunday",    "open": "09:00 AM", "close": "08:00 AM" }
+      ]
+    },
+    {
+      "id": 5,
+      "isNightDuty": true,
+      "name": "Uluçay Pharmacy",
+      "distance": "2.3 km away",
+      "address": "Uluçay Mahallesi / Kadiköy",
+      "city": "İstanbul",
+      "district": "Kadiköy",
+      "neighborhood": "Uluçay",
+      "statusText": "On duty tonight (24 hours)",
+      "statusType": "closed",
+      "phone": "+90 (530) 222 22 22",
+      "services": ["On-duty service", "OTC products"],
+      "schedule": [
+        { "day": "Monday",    "open": "24 hours", "close": "" },
+        { "day": "Tuesday",   "open": "24 hours", "close": "" },
+        { "day": "Wednesday", "open": "24 hours", "close": "" },
+        { "day": "Thursday",  "open": "24 hours", "close": "" },
+        { "day": "Friday",    "open": "24 hours", "close": "" },
+        { "day": "Saturday",  "open": "24 hours", "close": "" },
+        { "day": "Sunday",    "open": "24 hours", "close": "" }
+      ]
+    },
+    {
+      "id": 6,
+      "isNightDuty": true,
+      "name": "Vızvız Pharmacy",
+      "distance": "3.0 km away",
+      "address": "Vızvız Mahallesi / Ataşehir",
+      "city": "İstanbul",
+      "district": "Ataşehir",
+      "neighborhood": "Vızvız",
+      "statusText": "On duty tonight (until midnight)",
+      "statusType": "open",
+      "phone": "+90 (530) 333 33 33",
+      "services": ["On-duty service", "Prescription pickup"],
+      "schedule": [
+        { "day": "Monday",    "open": "06:00 PM", "close": "12:00 AM" },
+        { "day": "Tuesday",   "open": "06:00 PM", "close": "12:00 AM" },
+        { "day": "Wednesday", "open": "06:00 PM", "close": "12:00 AM" },
+        { "day": "Thursday",  "open": "06:00 PM", "close": "12:00 AM" },
+        { "day": "Friday",    "open": "06:00 PM", "close": "12:00 AM" },
+        { "day": "Saturday",  "open": "06:00 PM", "close": "12:00 AM" },
+        { "day": "Sunday",    "closed": true }
+      ]
+    }
+  ],
+  "recommendedProducts": [
+    {
+      "id": 1,
+      "name": "Majezik 100 mg Film Tablet",
+      "price": "$7.90",
+      "status": "In Stock"
+    },
+    {
+      "id": 2,
+      "name": "Minoset 500 mg Tablet",
+      "price": "$4.50",
+      "status": "In Stock"
+    },
+    {
+      "id": 3,
+      "name": "Parol 500 mg Tablet",
+      "price": "$3.99",
+      "status": "In Stock"
+    },
+    {
+      "id": 4,
+      "name": "Strepsils Honey & Lemon Lozenges",
+      "price": "$5.75",
+      "status": "In Stock"
+    }
+  ],
+  "vitamins-supplements" : [
+    {
+      "productName": "Vitamin C 1000 mg",
+      "brand": "Redoxon",
+      "price": 179.90,
+      "description": "Effervescent vitamin C supplement designed to support immune system function."
+    },
+    {
+      "productName": "Vitamin D3 1000 IU",
+      "brand": "Solgar",
+      "price": 245.50,
+      "description": "Vitamin D3 supplement that helps support bone, muscle, and immune health."
+    },
+    {
+      "productName": "Magnesium Complex",
+      "brand": "Ocean",
+      "price": 189.00,
+      "description": "Magnesium blend formulated to support muscle function, relaxation, and energy metabolism."
+    },
+    {
+      "productName": "Multivitamin for Women",
+      "brand": "Centrum",
+      "price": 269.90,
+      "description": "Daily multivitamin and mineral formula tailored to women's nutritional needs."
+    }
+  ],
+  "pain-relievers" : [
+    {
+      "productName": "Parol 500 mg",
+      "brand": "Atabay",
+      "price": 52.00,
+      "description": "Pain reliever and fever reducer commonly used for mild to moderate pain."
+    },
+    {
+      "productName": "Minoset",
+      "brand": "Sanofi",
+      "price": 48.50,
+      "description": "Paracetamol-based medicine used to relieve pain and reduce fever."
+    },
+    {
+      "productName": "Majezik",
+      "brand": "Sanovel",
+      "price": 96.00,
+      "description": "Analgesic used for short-term relief of moderate pain such as muscle or dental pain."
+    },
+    {
+      "productName": "Apranax Forte",
+      "brand": "Abdi İbrahim",
+      "price": 112.75,
+      "description": "Anti-inflammatory pain reliever used for conditions like muscle, joint, or menstrual pain."
+    }
+  ],
+  "cold-flu" : [
+    {
+      "productName": "Aferin Forte",
+      "brand": "Bayer",
+      "price": 89.90,
+      "description": "Cold and flu medicine formulated to relieve common symptoms like congestion and body aches."
+    },
+    {
+      "productName": "Gripin",
+      "brand": "Bayer",
+      "price": 64.00,
+      "description": "Combination product used to help reduce fever, headache, and cold-related discomfort."
+    },
+    {
+      "productName": "Theraflu Hot Drink",
+      "brand": "GSK",
+      "price": 118.50,
+      "description": "Powder sachets mixed with hot water to help soothe flu symptoms and relieve congestion."
+    },
+    {
+      "productName": "Otrivine Nasal Spray",
+      "brand": "GSK",
+      "price": 92.25,
+      "description": "Nasal spray designed for fast, temporary relief of blocked nose due to colds or allergies."
+    }
+  ],
+  "creams-sprays"  : [
+    {
+      "productName": "Bepanthol Repair Cream",
+      "brand": "Bayer",
+      "price": 134.90,
+      "description": "Moisturizing cream developed to help repair and protect dry, sensitive skin."
+    },
+    {
+      "productName": "Fito Cream",
+      "brand": "Santa Farma",
+      "price": 98.50,
+      "description": "Topical cream commonly used to support skin recovery and soothe irritated areas."
+    },
+    {
+      "productName": "Muscoflex Gel",
+      "brand": "Abdi İbrahim",
+      "price": 121.00,
+      "description": "Topical gel used for localized relief of muscle and joint discomfort."
+    },
+    {
+      "productName": "Voltaren Spray",
+      "brand": "GSK",
+      "price": 156.75,
+      "description": "Spray gel for targeted relief of muscle pain, strains, and joint inflammation."
+    }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "name": "Vitamin C 1000 mg",
+      "brand": "Redoxon",
+      "price": 179.9,
+      "description": "Effervescent vitamin C supplement designed to support immune system function.",
+      "categorySlug": "vitamins-supplements"
+    },
+    {
+      "id": 102,
+      "name": "Vitamin D3 1000 IU",
+      "brand": "Solgar",
+      "price": 245.5,
+      "description": "Vitamin D3 supplement that helps support bone, muscle, and immune health.",
+      "categorySlug": "vitamins-supplements"
+    },
+    {
+      "id": 103,
+      "name": "Magnesium Complex",
+      "brand": "Ocean",
+      "price": 189.0,
+      "description": "Magnesium blend formulated to support muscle function, relaxation, and energy metabolism.",
+      "categorySlug": "vitamins-supplements"
+    },
+    {
+      "id": 104,
+      "name": "Multivitamin for Women",
+      "brand": "Centrum",
+      "price": 269.9,
+      "description": "Daily multivitamin and mineral formula tailored to women's nutritional needs.",
+      "categorySlug": "vitamins-supplements"
+    },
+
+    {
+      "id": 201,
+      "name": "Parol 500 mg",
+      "brand": "Atabay",
+      "price": 52.0,
+      "description": "Pain reliever and fever reducer commonly used for mild to moderate pain.",
+      "categorySlug": "pain-relievers"
+    },
+    {
+      "id": 202,
+      "name": "Minoset",
+      "brand": "Sanofi",
+      "price": 48.5,
+      "description": "Paracetamol-based medicine used to relieve pain and reduce fever.",
+      "categorySlug": "pain-relievers"
+    },
+    {
+      "id": 203,
+      "name": "Majezik",
+      "brand": "Sanovel",
+      "price": 96.0,
+      "description": "Analgesic used for short-term relief of moderate pain such as muscle or dental pain.",
+      "categorySlug": "pain-relievers"
+    },
+    {
+      "id": 204,
+      "name": "Apranax Forte",
+      "brand": "Abdi İbrahim",
+      "price": 112.75,
+      "description": "Anti-inflammatory pain reliever used for conditions like muscle, joint, or menstrual pain.",
+      "categorySlug": "pain-relievers"
+    },
+
+    {
+      "id": 301,
+      "name": "Aferin Forte",
+      "brand": "Bayer",
+      "price": 89.9,
+      "description": "Cold and flu medicine formulated to relieve common symptoms like congestion and body aches.",
+      "categorySlug": "cold-flu"
+    },
+    {
+      "id": 302,
+      "name": "Gripin",
+      "brand": "Bayer",
+      "price": 64.0,
+      "description": "Combination product used to help reduce fever, headache, and cold-related discomfort.",
+      "categorySlug": "cold-flu"
+    },
+    {
+      "id": 303,
+      "name": "Theraflu Hot Drink",
+      "brand": "GSK",
+      "price": 118.5,
+      "description": "Powder sachets mixed with hot water to help soothe flu symptoms and relieve congestion.",
+      "categorySlug": "cold-flu"
+    },
+    {
+      "id": 304,
+      "name": "Otrivine Nasal Spray",
+      "brand": "GSK",
+      "price": 92.25,
+      "description": "Nasal spray designed for fast, temporary relief of blocked nose due to colds or allergies.",
+      "categorySlug": "cold-flu"
+    },
+
+    {
+      "id": 401,
+      "name": "Bepanthol Repair Cream",
+      "brand": "Bayer",
+      "price": 134.9,
+      "description": "Moisturizing cream developed to help repair and protect dry, sensitive skin.",
+      "categorySlug": "creams-sprays"
+    },
+    {
+      "id": 402,
+      "name": "Fito Cream",
+      "brand": "Santa Farma",
+      "price": 98.5,
+      "description": "Topical cream commonly used to support skin recovery and soothe irritated areas.",
+      "categorySlug": "creams-sprays"
+    },
+    {
+      "id": 403,
+      "name": "Muscoflex Gel",
+      "brand": "Abdi İbrahim",
+      "price": 121.0,
+      "description": "Topical gel used for localized relief of muscle and joint discomfort.",
+      "categorySlug": "creams-sprays"
+    },
+    {
+      "id": 404,
+      "name": "Voltaren Spray",
+      "brand": "GSK",
+      "price": 156.75,
+      "description": "Spray gel for targeted relief of muscle pain, strains, and joint inflammation.",
+      "categorySlug": "creams-sprays"
+    }
+  ],
+
+  "product-categories": [
+    {
+      "id": 1,
+      "name": "Vitamins & Supplements"
+    },
+    {
+      "id": 2,
+      "name": "Pain Relievers"
+    },
+    {
+      "id": 3,
+      "name": "Cold & Flu"
+    },
+    {
+      "id": 4,
+      "name": "Creams & Sprays"
+    }
+  ],
+  "product-brands" : [
+    {
+      "id": 1,
+      "name" : "Redoxon"
+    },
+    {
+      "id": 2,
+      "name" : "Brand B"
+    },
+    {
+      "id": 3,
+      "name" : "Brand C"
+    }
+  ]
+}

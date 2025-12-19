@@ -1,0 +1,17 @@
+.auth-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.auth-input-label {
+    margin-bottom: 6px;
+}
+
+.auth-input-field {
+    padding: 12px 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+

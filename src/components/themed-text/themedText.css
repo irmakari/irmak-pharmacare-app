@@ -1,0 +1,23 @@
+.themed-text {
+    font-family: "Inter", system-ui, sans-serif;
+    color: #111827;
+}
+
+.themed-text--title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.themed-text--subtitle {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.themed-text--body {
+    font-size: 14px;
+}
+
+.themed-text--caption {
+    font-size: 12px;
+    color: #6b7280;
+}

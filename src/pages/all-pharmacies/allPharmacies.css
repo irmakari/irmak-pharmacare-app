@@ -1,0 +1,65 @@
+.allph-page {
+    min-height: 100vh;
+    background: #f7f9fc;
+    font-family: "Inter", system-ui, sans-serif;
+}
+
+.allph-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px 24px 48px;
+}
+
+
+
+.allph-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.allph-subtitle {
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.allph-list-section {
+    margin-top: 16px;
+}
+
+.allph-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+
+
+.allph-tabs {
+    display: flex;
+    gap: 8px;
+}
+
+.allph-tab {
+    border-radius: 999px;
+    border: 1px solid #e5e7eb;
+    padding: 6px 10px;
+    font-size: 13px;
+    background: #f9fafb;
+    cursor: pointer;
+}
+
+.allph-tab--active {
+    background: dodgerblue;
+    color: #ffffff;
+    border-color: dodgerblue;
+}
+
+.allph-list {
+    margin-top: 8px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 12px 18px;
+    border: 1px solid #e5e7eb;
+}

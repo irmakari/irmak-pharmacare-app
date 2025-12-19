@@ -1,0 +1,1 @@
+export {default as AllPharmaciesService} from "./all.pharmacies.service";

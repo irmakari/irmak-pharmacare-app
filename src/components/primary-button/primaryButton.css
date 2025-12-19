@@ -1,0 +1,12 @@
+.primary-btn {
+    background: dodgerblue;
+    border: none;
+    padding: 13px 18px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.primary-btn:hover {
+    background: #1e4fe1;
+}

@@ -1,0 +1,1 @@
+import {default as RecommendedProductsService} from './recommended.products.service';
