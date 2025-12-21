@@ -71,12 +71,36 @@ function TabBar() {
                     >
                         Order History
                     </NavLink>
+
+
+
                 </nav>
 
                 <div className="tabbar-actions">
-                    <button className="tabbar-icon-btn">👤</button>
-                    <button className="tabbar-icon-btn">🛒</button>
-                    <button className="tabbar-icon-btn">❌</button>
+                    <NavLink
+                        to="/profile"
+                        className={({ isActive }) =>
+                            isActive ? "tabbar-link tabbar-link--active" : "tabbar-link"
+                        }
+                    >
+                        Profile
+                    </NavLink>
+                    <NavLink
+                        to="/cart"
+                        className={({ isActive }) =>
+                            isActive ? "tabbar-link tabbar-link--active" : "tabbar-link"
+                        }
+                    >
+                        Cart
+                    </NavLink>
+                    <NavLink
+                        to="/logout"
+                        className={({ isActive }) =>
+                            isActive ? "tabbar-link tabbar-link--active" : "tabbar-link"
+                        }
+                    >
+                        Log Out
+                    </NavLink>
 
                 </div>
             </div>
