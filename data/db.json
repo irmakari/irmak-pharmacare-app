@@ -354,6 +354,7 @@
     {
       "id": 202,
       "name": "Minoset",
+      "imagekey":"minoset",
       "brand": "Sanofi",
       "price": 48.5,
       "description": "Paracetamol-based medicine used to relieve pain and reduce fever.",
@@ -473,6 +474,113 @@
     {
       "id": 3,
       "name" : "Brand C"
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": 1,
+      "code": "RX-2025-001",
+      "holderName": "John Doe",
+      "doctorName": "Dr. Jane Smith",
+      "issuedDate": "2023-10-26",
+      "status": "Active",
+      "note": "Please take medicine with food.",
+      "medicines": [
+        {
+          "id": "med-1",
+          "name": "Amoxicillin",
+          "dosage": "250mg",
+          "quantity": 30,
+          "instructions": "Take 1 pill twice daily.",
+          "reserved": false,
+          "isImportant": true
+        },
+        {
+          "id": "med-2",
+          "name": "Ibuprofen",
+          "dosage": "400mg",
+          "quantity": 20,
+          "instructions": "Take as needed for pain.",
+          "reserved": false,
+          "isImportant": false
+        },
+        {
+          "id": "med-3",
+          "name": "Lisinopril",
+          "dosage": "10mg",
+          "quantity": 60,
+          "instructions": "Take 1 pill once daily.",
+          "reserved": false,
+          "isImportant": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "code": "RX-2025-002",
+      "holderName": "Alice Johnson",
+      "doctorName": "Dr. Mehmet Kaya",
+      "issuedDate": "2024-02-14",
+      "status": "Active",
+      "note": "Avoid driving if you feel sleepy.",
+      "medicines": [
+        {
+          "id": "med-1",
+          "name": "Cetirizine",
+          "dosage": "10mg",
+          "quantity": 14,
+          "instructions": "Take 1 tablet once daily.",
+          "reserved": false,
+          "isImportant": false
+        },
+        {
+          "id": "med-2",
+          "name": "Omeprazole",
+          "dosage": "20mg",
+          "quantity": 28,
+          "instructions": "Take 1 capsule before breakfast.",
+          "reserved": false,
+          "isImportant": true
+        },
+        {
+          "id": "med-3",
+          "name": "Paracetamol",
+          "dosage": "500mg",
+          "quantity": 20,
+          "instructions": "Take 1 tablet every 6-8 hours if needed.",
+          "reserved": false,
+          "isImportant": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "code": "RX-2025-003",
+      "holderName": "Kerem Yılmaz",
+      "doctorName": "Dr. Elif Aydın",
+      "issuedDate": "2025-01-09",
+      "status": "Active",
+      "note": "Finish the antibiotic course unless your doctor says otherwise.",
+      "medicines": [
+        {
+          "id": "med-1",
+          "name": "Azithromycin",
+          "dosage": "500mg",
+          "quantity": 3,
+          "instructions": "Take 1 tablet once daily for 3 days.",
+          "reserved": false,
+          "isImportant": true
+        },
+        {
+          "id": "med-2",
+          "name": "Naproxen",
+          "dosage": "250mg",
+          "quantity": 10,
+          "instructions": "Take 1 tablet twice daily after meals.",
+          "reserved": false,
+          "isImportant": false
+        }
+      ]
     }
   ]
 }
