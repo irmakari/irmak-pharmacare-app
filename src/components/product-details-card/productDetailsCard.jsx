@@ -1,5 +1,6 @@
 import React from "react";
 import TabBar from "../tab-navigator/tabNavigator";
+import './productDetailsCard.css'
 
 const ProductDetailsCard = ({
     product,
@@ -133,10 +134,6 @@ const ProductDetailsCard = ({
                                 Add to Cart
                             </button>
                         </div>
-
-                        <button type="button" className="pd-wishlist">
-                            Add to Wishlist
-                        </button>
 
                         <ul className="pd-features">
                             {features.map((item) => (

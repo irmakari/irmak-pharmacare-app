@@ -10,5 +10,7 @@ export * from './products-filterpanel'
 export * from './products-toolbar'
 export * from './product-grid'
 export * from './product-details-card'
+export * from './pickup-modal'
+
 
 

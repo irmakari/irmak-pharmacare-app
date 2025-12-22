@@ -1,0 +1,93 @@
+.prescription-content {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 20px 24px 60px;
+}
+
+.page-header h1 {
+    font-size: 26px;
+    margin: 12px 0 4px;
+}
+
+.page-header p {
+    color: #6b7280;
+    margin: 0;
+}
+.lookup-card {
+    margin-top: 18px;
+    background: #eef4ff;
+    border: 1px solid #d7e5ff;
+    border-radius: 14px;
+    padding: 16px;
+    box-shadow: 0 10px 30px rgba(75, 124, 255, 0.08);
+}
+
+.lookup-form {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.lookup-input {
+    flex: 1;
+    min-width: 260px;
+    padding: 14px 16px;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+}
+
+.lookup-input:focus {
+    outline: 2px solid #3b82f6;
+    border-color: #3b82f6;
+}
+
+.lookup-button {
+    padding: 14px 18px;
+    background: linear-gradient(90deg, #2563eb, #1d4ed8);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.lookup-button:disabled {
+    opacity: 0.8;
+    cursor: not-allowed;
+}
+
+.lookup-button:hover:not(:disabled) {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.2);
+}
+
+.lookup-helper {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 13px;
+    color: #6b7280;
+}
+
+.lookup-helper a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.lookup-helper a:hover {
+    text-decoration: underline;
+}
+
+.lookup-error {
+    margin-top: 10px;
+    color: #b91c1c;
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-size: 14px;
+}

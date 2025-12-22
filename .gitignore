@@ -13,6 +13,8 @@ node_modules/
 # Production Build
 build/
 
+.history/
+
 # Logs
 npm-debug.log*
 yarn-debug.log*

@@ -1,1 +1,1 @@
-export {default as ProductsFilterPanel} from './ProductsFilterPanel';
+export {default as ProductsFilterPanel} from './productsFilterPanel';

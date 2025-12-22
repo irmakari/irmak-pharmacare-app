@@ -1,0 +1,395 @@
+
+.prescription-page {
+    min-height: 100vh;
+    background: #f7f9fc;
+    font-family: "Inter", system-ui, sans-serif;
+    color: #0f172a;
+}
+
+
+.prescription-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-top: 20px;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 18px 20px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+}
+
+.card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.card-header h2 {
+    margin: 0 0 4px;
+    font-size: 18px;
+}
+
+.muted {
+    margin: 0;
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.summary-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.label {
+    font-size: 13px;
+    color: #6b7280;
+}
+
+.value {
+    font-weight: 600;
+}
+
+.status-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.status-pill--active {
+    background: #dcfce7;
+    color: #166534;
+    border: 1px solid #bbf7d0;
+}
+
+.status-pill--inactive {
+    background: #fef3c7;
+    color: #92400e;
+    border: 1px solid #fde68a;
+}
+
+.note {
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid #e5e7eb;
+    color: #374151;
+    display: flex;
+    gap: 8px;
+}
+
+.medicines-card {
+    margin-bottom: 12px;
+}
+
+.select-all {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    color: #2563eb;
+    cursor: pointer;
+    user-select: none;
+}
+
+.medicines-list {
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.medicine-row {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 12px 14px;
+    background: #f8fafc;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 8px 12px;
+    align-items: center;
+}
+
+.medicine-main {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.medicine-name {
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #111827;
+}
+
+.important-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 999px;
+    background: #ef4444;
+}
+
+.medicine-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.divider {
+    width: 1px;
+    height: 14px;
+    background: #d1d5db;
+    display: inline-block;
+}
+
+.medicine-instructions {
+    grid-column: 1 / -1;
+    color: #111827;
+    font-size: 14px;
+}
+
+.reserve-checkbox {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    color: #0f172a;
+    cursor: pointer;
+    justify-self: flex-end;
+}
+
+@media (max-width: 768px) {
+    .lookup-form {
+        flex-direction: column;
+    }
+
+    .lookup-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .card-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .medicine-row {
+        grid-template-columns: 1fr;
+        justify-items: flex-start;
+    }
+
+    .reserve-checkbox {
+        justify-self: flex-start;
+    }
+}
+
+.pickup-card {
+    margin-top: 4px;
+}
+
+.pickup-header h2 {
+    margin: 0 0 4px;
+}
+
+.pickup-filters {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.pickup-search {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+}
+
+.pickup-search:focus {
+    outline: 2px solid #2563eb;
+    border-color: #2563eb;
+}
+
+.pickup-selects {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.pickup-selects select {
+    min-width: 180px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+    background: #ffffff;
+}
+
+.pharmacy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 12px;
+}
+
+.pharmacy-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 14px 16px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
+}
+
+.pharmacy-card--selected {
+    border-color: #2563eb;
+    box-shadow: 0 10px 28px rgba(37, 99, 235, 0.14);
+}
+
+.pharmacy-name {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.pharmacy-meta {
+    display: flex;
+    flex-direction: column;
+    color: #6b7280;
+    gap: 4px;
+    font-size: 14px;
+}
+
+.pharmacy-phone {
+    font-size: 14px;
+    color: #111827;
+}
+
+.pharmacy-select {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    color: #0f172a;
+    user-select: none;
+}
+
+.pharmacy-select input {
+    accent-color: #2563eb;
+}
+
+.status-badge {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.status-badge--open {
+    color: #16a34a;
+}
+
+.status-badge--closeSoon {
+    color: #ca8a04;
+}
+
+.status-badge--closed {
+    color: #dc2626;
+}
+
+.status-badge--default {
+    color: #111827;
+}
+
+.pharmacy-empty {
+    grid-column: 1 / -1;
+    padding: 10px 12px;
+    color: #6b7280;
+    border: 1px dashed #d1d5db;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pickup-actions {
+    margin-top: 12px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.view-all-link {
+    color: #2563eb;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.view-all-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .pickup-selects {
+        flex-direction: column;
+    }
+
+    .pharmacy-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.pickup-time-card {
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.pickup-time-select {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    background: #f3f4f6;
+    font-size: 15px;
+    color: #111827;
+}
+
+.pickup-time-select:focus {
+    outline: 2px solid #2563eb;
+    border-color: #2563eb;
+}
+
+.reserve-btn {
+    margin-top: 4px;
+    width: 100%;
+    padding: 14px 18px;
+    border: none;
+    border-radius: 12px;
+    background: #94a3b8;
+    color: #0f172a;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.reserve-btn:hover {
+    background: #8696ab;
+}

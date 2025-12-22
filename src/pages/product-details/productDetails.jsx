@@ -1,9 +1,9 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
-import { ProductDetailsCard } from "../../components/product-details-card";
 import ProductsService from "../../collections/products-service/products.service";
 import { normalizeProduct } from "../../utils/product";
 import "./productDetails.css";
+import ProductDetailsCard from "../../components/product-details-card/productDetailsCard";
 
 const ProductDetails = () => {
     const { id } = useParams();

@@ -3,4 +3,4 @@ export * from './night-pharmacies-service'
 export * from './all-pharmacies-service'
 export * from './recommended-products-service'
 export * from './products-service'
-
+export * from './prescriptions-service'
